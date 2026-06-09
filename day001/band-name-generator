@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+
+import random
+
+print("Welcome to the Band Name Generator")
+print("")
+city = input("What's the name of the city you grew up in? ")
+nouns = ["Jammers","Boys","Girls","White","Black","Tigers","Slap"]
+print (city, str(nouns[random.randint(0,len(nouns))]))
